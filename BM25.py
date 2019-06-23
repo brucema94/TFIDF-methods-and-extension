@@ -26,7 +26,6 @@ stopwords.extend(TF1word)
 stopwords.append('februari')
 
 # here a list of tags extracted from stack overflow is created
-finallist = list()
 Wordlist_SE = open("C:/Your folder/StackOverflowTags.txt", 'r')
 Java_developer = pandas.read_csv("C:/Myler text/Java_developer.csv", sep=';')
 skillname = [line.rstrip('\n') for line in Wordlist_SE]
