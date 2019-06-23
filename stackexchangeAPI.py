@@ -1,3 +1,4 @@
+# this file uses the stack exchange API to create the synoymslist for the tags for future Word-2-vec use.
 import stackexchange
 Wordlist_SE = open("C:/Myler text/StackOverflowTags.txt",'r')
 skillname = [line.rstrip('\n') for line in Wordlist_SE]
