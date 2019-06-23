@@ -1,5 +1,6 @@
 # this file uses the stack exchange API to create the synoymslist for the tags for future Word-2-vec use.
 import stackexchange
+import csv
 Wordlist_SE = open("C:/Myler text/StackOverflowTags.txt",'r')
 skillname = [line.rstrip('\n') for line in Wordlist_SE]
 skills = list(skillname)
@@ -26,7 +27,6 @@ for i in range(53000,53803):
         except:
                 pass
 
-import csv
 with open('synonyms54.csv', 'w', newline='') as csvfile:
         spamwriter = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
         spamwriter.writerow(synonymsList.keys())
