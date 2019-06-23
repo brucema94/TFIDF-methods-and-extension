@@ -6,5 +6,6 @@ This project consists of the regular TFIDF methods as well as other modified ver
 BM25 is a modefied version of TFIDF which made a change in the algorithm that change the weight of TF and IDF in the calculation. The optimal parameters is tested by google and we adopt the setting here. 
 
 
-TFIDF-De-Di is developed on top of TFIDF which also take into account the interclass weight and the intraclass weight of the words. 
+TFIDF-De-Di is developed on top of TFIDF which also take into account the interclass weight and the intraclass weight of the words.
+
 Ref: chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://pdfs.semanticscholar.org/6e4d/ee7ef8f91ea2a60bc71e81eda85258b4a444.pdf 
